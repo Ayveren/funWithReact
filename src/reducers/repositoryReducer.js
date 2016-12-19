@@ -6,6 +6,7 @@ export default function repositoryReducer(state = initialState.repositories, act
     case types.LOAD_REPOSITORIES_SUCCESS:
     case types.SEARCH_REPOSITORIES_SUCCESS:
       return action.repositories;
+
     case types.SEARCH_REPOSITORIES_ERROR:
     case types.LOAD_REPOSITORIES_ERROR:
     default:

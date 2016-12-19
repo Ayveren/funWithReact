@@ -9,7 +9,6 @@ import PullRequestsList from './PullRequestsList.jsx';
 class Repo extends React.Component {
   constructor(props) {
     super(props);
-
     this.getRepoPulls = this.getRepoPulls.bind(this);
   }
 
