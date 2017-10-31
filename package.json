@@ -1,7 +1,7 @@
 {
   "name": "fun_with_react",
   "version": "1.0.0",
-  "description": "Create app using React + react-router + redux or React Native  + redux",
+  "description": "A react app which allows you to find git repositories by stars or names.",
   "scripts": {
     "start": "npm-run-all --parallel open:src",
     "open:src": "babel-node server.js",
