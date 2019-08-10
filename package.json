@@ -7,7 +7,8 @@
     "open:src": "babel-node server.js",
     "lint": "node_modules/.bin/esw webpack.config.* src",
     "lint:watch": "npm run lint -- --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "next build"
   },
   "author": "ayveren",
   "license": "ISC",
